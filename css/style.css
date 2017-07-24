@@ -509,6 +509,28 @@ footer {
   }	
 }
 
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		flex-direction: column;
+	}
+	.image-grid div {
+		width: 100%;
+		height: 400px;
+		margin: 0 auto;
+	}	
+}
+
+@media screen and (max-width: 768px) {
+	.image-grid {
+		flex-direction: column;
+	}
+	.image-grid div {
+		width: 100%;
+		height: 400px;
+		margin: 0 auto;
+	}	
+}
+
 @media screen and (max-width: 600px) {
 	.image-grid {
 		flex-direction: column;
@@ -524,6 +546,9 @@ footer {
 	.banner-text h1 {
 		font-size: 40px;
 	}
+	#footer-content {
+		flex-direction: column;
+	}	
 }
 @media screen and (max-width: 475px) {
 	#social-block {
