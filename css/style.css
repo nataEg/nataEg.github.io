@@ -548,10 +548,14 @@ footer {
 	}
 	#footer-content {
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}	
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 485px) {
 	#social-block {
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }
