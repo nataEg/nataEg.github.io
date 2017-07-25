@@ -488,6 +488,10 @@ footer {
 
 
 @media screen and (max-width: 1024px) {
+#top-menu {
+	display: flex;
+	justify-content: center;
+}	
 menu > ul {
 	justify-content: center;
 }
@@ -495,6 +499,7 @@ menu ul li a img {
 	width: 100%;
 	height: auto;
 }	
+/*
 menu ul li a {
 	display: inline-block;
 	padding: 12px 0;
@@ -502,6 +507,7 @@ menu ul li a {
 	color: #00acc1;
 	transition: color 0.5s ease-in-out;
 }	
+*/
 	.image-grid {
 		flex-direction: column;
 	}
