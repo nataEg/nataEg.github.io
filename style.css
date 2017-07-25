@@ -46,8 +46,8 @@ menu > ul {
 */
 }
 menu ul li a {
-	display: inline-block;
-	padding: 12px 0;
+/*	display: inline-block;*/
+/*	padding: 12px 0;*/
 	text-decoration: none;
 	color: #00acc1;
 	transition: color 0.5s ease-in-out;
