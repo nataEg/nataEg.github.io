@@ -485,29 +485,7 @@ footer {
 	margin: 10px auto;	
 }
 
-@media screen and (max-width: 768px) {
-  #top-menu {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    padding: 0;
-  }
-  #top-menu li a {
-		display: block;
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-	.banner-text h1 {
-		font-size: 50px;
-	}		
-  #contacts {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    padding: 0;
-  }	
-}
+
 
 @media screen and (max-width: 1024px) {
 	.image-grid {
@@ -529,6 +507,27 @@ footer {
 		height: 400px;
 		margin: 0 auto;
 	}	
+  #top-menu {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 0;
+  }
+  #top-menu li a {
+		display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+	.banner-text h1 {
+		font-size: 50px;
+	}		
+  #contacts {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 0;
+  }		
 }
 
 @media screen and (max-width: 600px) {
