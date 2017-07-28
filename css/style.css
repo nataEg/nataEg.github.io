@@ -188,13 +188,14 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	flex:0 1 50%;
+
 }
 .image-grid div {
 	height: 300px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
 /*
 .image-grid div:hover {
@@ -500,6 +501,9 @@ footer {
 	
 	.image-grid {
 		-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;
+	}
+	.thumbs {
+		flex:0 1 50%;		
 	}
 /*
 	.image-grid div {
