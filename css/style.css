@@ -114,10 +114,6 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-/*
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-*/
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	-webkit-box-orient: horizontal;
@@ -135,7 +131,7 @@ header {
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
 	width: 300px;
-	min-height: 310px;
+/*	min-height: 310px;*/
 	padding: 0.5em;	
 /*	padding: 12px;*/
 	box-shadow: 0 0 8px 0 rgba(0,0,0,0.2),   inset 0 0 1px 0 rgba(255,255,255,1);
@@ -628,7 +624,6 @@ footer {
 	-ms-flex-pack: distribute;
 	-webkit-box-pack: space-between;
 	justify-content: space-between;
-	width: 90%;
 }
 .cbm_wrap{
 	width: 300px;
