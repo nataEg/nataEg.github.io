@@ -30,6 +30,7 @@ body {
 menu {
 	background: #ccc;
 }
+#gallery,
 #top-menu {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -50,10 +51,12 @@ menu {
 	align-items: center;	
 	list-style: none;	
 }
+#gallery ul,
 #top-menu ul {
 /*	padding: 12px 0;*/
 	margin: 0.5em;	
 }
+#gallery li,
 #top-menu li a {
 	display: inline-block;
 /*	padding: 12px 0;*/
@@ -191,7 +194,7 @@ header {
 
 }
 .image-grid div {
-	display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;
+/*	display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;*/
 	height: 300px;
 	background-position: center center;
 	background-size: cover;
@@ -507,7 +510,7 @@ footer {
 		flex-direction: row;
 */
 		
-		-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
+/*		-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;*/
 	}
 	.thumbs {
 /*		display: inline-block;*/
