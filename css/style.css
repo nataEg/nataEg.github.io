@@ -474,6 +474,7 @@ footer {
 	
 	.wrapper_body {
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 
 	/*
