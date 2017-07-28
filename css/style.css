@@ -191,6 +191,7 @@ header {
 
 }
 .image-grid div {
+	display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;
 	height: 300px;
 	background-position: center center;
 	background-size: cover;
@@ -500,10 +501,14 @@ footer {
 }
 
 	.image-grid {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
 		
+		flex-wrap: wrap;
 	}
 	.thumbs {
-		display: inline-block;
+/*		display: inline-block;*/
 	}
 /*
 	.image-grid div {
