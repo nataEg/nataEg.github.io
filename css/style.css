@@ -501,9 +501,11 @@ footer {
 }
 
 	.image-grid {
+/*
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+*/
 		
 		-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
 	}
