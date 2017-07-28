@@ -133,6 +133,7 @@ header {
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
 	width: 100%;	
+	height: auto;
 /*	width: 300px;*/
 /*	min-height: 310px;*/
 	min-width: 300px;
@@ -140,7 +141,7 @@ header {
 	padding: 0.5em;	
 /*	padding: 12px;*/
 	box-shadow: 0 0 8px 0 rgba(0,0,0,0.2),   inset 0 0 1px 0 rgba(255,255,255,1);
-	margin:  1em auto;
+	margin:  0.5em;
 	border-radius: 3px;
 	color: #4A4A4A !important;
 /*    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);*/
