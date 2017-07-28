@@ -488,8 +488,11 @@ footer {
 		margin: 0 1em;
 		width: 300px;		
 		max-height: 610px;
-
 	}
+	.cbm_wrap img {
+			width: 100%;
+			margin-top: 15px;
+	}	
 	/*
 	.image-grid {
 		flex-direction: column;
