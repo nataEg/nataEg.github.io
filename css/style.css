@@ -481,11 +481,10 @@ footer {
 		height: 100%;
 	}
 	.cbm_wrap {
-/*		display: inline-block;	*/
-		float: left;
+		display: inline-block;	
 		margin: 0 1em;
 		width: 300px;		
-		height: 310px;
+		max-height: 610px;
 
 	}
 	/*
