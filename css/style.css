@@ -636,10 +636,8 @@ footer {
 }
 .cbm_wrap {
 		width: 18%;
-/*
-		width: 300px;
+		min-width: 300px;
 		min-height: 310px;
-*/
 
 	padding: 0.5em;	
 	margin:  1em auto;
