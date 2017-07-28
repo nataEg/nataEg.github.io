@@ -480,7 +480,8 @@ footer {
 		width: 100%;
 	}
 	.cbm_wrap {
-		display: inline-block;		
+		display: inline-block;	
+		margin: 0 1.5em;
 /*		width: 18%;*/
 	}
 	/*
