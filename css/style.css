@@ -96,22 +96,7 @@ header {
 /*Блоки текста*/
 
 .wrapper_body {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
 	width: 100%;
 	height: 100%;
 	z-index: 0;
@@ -173,104 +158,7 @@ header {
 	height: auto;
 	margin: 0 auto;
 }
-/*
-#slider {
-	max-width: 80%;
-	margin: 20px auto;
-}
-.sl {
-	width: 100%;
-}
-.sl__slide {
-	position: relative;
-  width: 100%;
-  height: 650px;
-  background-size: cover;
-  background-position: 50% 50%;	
-}
-.sl__slide img {
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-}
-.sl__text {
-	position: absolute;
-	bottom: 0;
-	background: rgb(0,0,0,0.5);
-	width: 100%;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
-	padding: 20px 0;
-}
-.sl__text h3,
-.sl__text p {
-	color: #fff;
-}
-.sl__zag, sl__desc {
-	margin: 0;
-	padding: 0 10px;
-}
-.slick-dots li button {
-	border: 2px solid #777;
-	border-radius: 50%;
-	box-shadow: -2px 1px 3px rgba(0, 0, 0, .2);
-	-webkit-transition: border-color: .3s;
-	-o-transition: border-color: .3s;
-	transition: border-color: .3s;
-}
-.slick-dots li button:before {
-	content: '';
-	width: 10px;
-	height: 10px;
-	background: #777;
-	opacity: 1;
-	border-radius: 50%;
-	top: 50%;
-	left: 50%;
-	margin: -5px 0 0 -5px;
-	-webkit-transition: background: .3s;
-	-o-transition: background: .3s;	
-	transition: background: .3s;
-}
-.slick-dots li button:hover,
-.slick-dots li.slick-active button {
-	border-color: #fff;
-}
-.slick-dots li button:hover:before,
-.slick-dots li.slick-active button:before {
-	background: #fff;
-}
-.slick-prev,
-.slick-next
-{
-    font-size: 0;
-    line-height: 0;
 
-    position: absolute;
-    top: 50%;
-
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-
-    cursor: pointer;
-
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
-}
-*/
-
-/*
-#attraction {
-	margin-top: 20px;
-}
-*/
 /*Галерея*/
 
 .image-grid {
