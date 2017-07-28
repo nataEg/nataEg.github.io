@@ -624,9 +624,10 @@ footer {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	flex-direction: row;
-	-webkit-justify-content: space-around;
+	-webkit-justify-content: center;
 	-ms-flex-pack: distribute;
-	justify-content: space-around;
+	-webkit-box-pack: center;
+	justify-content: center;
 }
 .cbm_wrap{
 	width: 300px;
