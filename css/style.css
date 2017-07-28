@@ -478,13 +478,14 @@ footer {
 		flex-wrap: wrap;
 */
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 	.cbm_wrap {
 		display: inline-block;	
 		margin: 0 1em;
+		width: 300px;		
 		height: 310px;
-		width: 300px;
+
 	}
 	/*
 	.image-grid {
