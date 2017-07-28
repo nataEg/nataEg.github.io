@@ -507,7 +507,7 @@ footer {
 	-ms-flex-pack: center;
 	justify-content: center;
 	
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	
 	-webkit-flex-direction: row;
