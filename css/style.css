@@ -477,12 +477,11 @@ footer {
 		flex-direction: row;
 		flex-wrap: wrap;
 */
-		display: block;
-		float: left;
 		width: 100%;
 	}
 	.cbm_wrap {
-		width: 18%;
+		display: inline-block;		
+/*		width: 18%;*/
 	}
 	/*
 	.image-grid {
