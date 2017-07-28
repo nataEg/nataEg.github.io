@@ -628,6 +628,7 @@ footer {
 	-ms-flex-pack: distribute;
 	-webkit-box-pack: space-between;
 	justify-content: space-between;
+	width: 90%;
 }
 .cbm_wrap{
 	width: 300px;
