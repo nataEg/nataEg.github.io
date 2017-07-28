@@ -479,9 +479,11 @@ footer {
 */
 		display: block;
 		float: left;
+		width: 100%;
+	}
+	.cbm_wrap {
 		width: 18%;
 	}
-
 	/*
 	.image-grid {
 		flex-direction: column;
