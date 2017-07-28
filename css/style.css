@@ -500,11 +500,10 @@ footer {
 }
 
 	.image-grid {
-		display: inline-block;
+		
 	}
 	.thumbs {
-/*		-webkit-box-flex:0;-webkit-flex:0 1 50%;-ms-flex:0 1 50%;flex:0 1 50%;		*/
-/*		-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;*/
+		display: inline-block;
 	}
 /*
 	.image-grid div {
