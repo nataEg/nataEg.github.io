@@ -188,6 +188,7 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	flex:0 1 50%;
 }
 .image-grid div {
 	height: 300px;
