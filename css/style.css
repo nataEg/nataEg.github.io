@@ -132,7 +132,7 @@ header {
 }
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
-	width: 20%;	
+	width: 100%;	
 /*	width: 300px;*/
 /*	min-height: 310px;*/
 	min-width: 300px;
@@ -625,6 +625,9 @@ footer {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
 		-webkit-justify-content: space-around;
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
@@ -635,7 +638,7 @@ footer {
 		align-items: center;	
 }
 .cbm_wrap {
-		width: 100%;
+		width: 20%;
 		min-width: 300px;
 		min-height: 310px;
 
