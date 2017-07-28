@@ -481,7 +481,8 @@ footer {
 	}
 	.cbm_wrap {
 		display: inline-block;	
-		margin: 0 1.5em;
+		margin: 0 1em;
+		height: 310px;
 /*		width: 18%;*/
 	}
 	/*
