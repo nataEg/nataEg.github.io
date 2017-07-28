@@ -293,21 +293,11 @@ header {
 	justify-content: center;
 }
 .image-grid div {
-/*	width: calc(100%/3);*/
 	height: 300px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-/*
-	opacity: 0.8;	
-	transition: opacity 0.3s ease-in-out;
-*/
 }
-/*
-.image-grid div:hover {
-	opacity: 1;	
-}
-*/
 .image1 {
 	background: url(../images/image1.jpg);
 }
@@ -465,12 +455,6 @@ footer {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;		
-/*
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 100%;
-*/
 	background: #ccc;	
 }
 
@@ -479,7 +463,6 @@ footer {
 .post,
 .schedule,
 #autor {
-/*	width: 100%;*/
 	margin: 0 15px;	
 	padding: 5px;	
 	text-align: center;	
@@ -489,11 +472,6 @@ footer {
 
 #informer {
 	margin-top: 5px;		
-/*	align-self: center;*/
-/*
-	border-top: 1px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	
-*/
 }
 #contacts {
 	display: -webkit-box;
@@ -513,11 +491,6 @@ footer {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-/*	margin-top: 10px;*/
-/*
-	border-top: 1px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	
-*/
 }
 
 #autor span a,
@@ -545,10 +518,6 @@ footer {
 	-webkit-align-items: center;	
 	-ms-flex-align: center;	
 	align-items: center;
-/*
-	border-top: 1px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	
-*/
 }
 #social {
 	display: -webkit-box;
@@ -570,7 +539,6 @@ footer {
 
 /*Кнопка UP*/
 #button-up {
-/*	display: flex;*/
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
 	align-self: center;	
@@ -582,10 +550,6 @@ footer {
   fill: #00acc1;
 	-webkit-transition: color 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out;	
-/*
-	border-top: 1px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	
-*/
 }
 #button-up:hover {
   fill: #FFF852;	
@@ -632,6 +596,9 @@ footer {
 		-ms-grid-row-align: center;
 		align-items: center;	
 	}
+	#top-menu li {
+		padding: 0.5em;
+	}	
 	#top-menu li a {
 		border: none;
 	}
