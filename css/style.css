@@ -503,7 +503,7 @@ footer {
 		-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;
 	}
 	.thumbs {
-		flex:0 1 50%;		
+		-webkit-box-flex:0;-webkit-flex:0 1 50%;-ms-flex:0 1 50%;flex:0 1 50%;		
 	}
 /*
 	.image-grid div {
