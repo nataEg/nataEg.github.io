@@ -489,35 +489,28 @@ footer {
 */
 	
 .wrapper_body{
-/*    position: absolute;*/
     padding: 20px 0;
     height: 100%;
     width: 100%;
-/*    font-family: 'Open Sans', sans-serif;*/
-    font-size: 11px;
     text-align: center;
-/*    background:url(http://picbox.im/image/cf6f6f3420-blueprintneue_iphone4_wallpaper.jpg);*/
 }
-.cbm_wrap{
-/*    background: rgba(255,255,255,0.3);*/
+.cbm_wrap {
     width: 300px;
     min-height: 310px;
     padding: 12px;
-/*    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2),   inset 0 0 1px 0 rgba(255,255,255,1);*/
     margin:  20px auto;
-/*
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color: #fff !important;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-*/
 }
+	.cbm_wrap h3 {
+		height: 10%;
+	}	
 .cbm_wrap img {
     width: 100%;
+		height: 30%
     margin-top: 15px;
 }	
-	
+	.cbm_wrap p {
+		height: 60%;
+	}	
 	/*
 	.image-grid {
 		flex-direction: column;
