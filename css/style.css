@@ -134,7 +134,7 @@ header {
 	background: rgba(255,255,255,0.3);
 	width: 100%;	
 	height: auto;
-/*	width: 300px;*/
+	width: 300px;
 /*	min-height: 310px;*/
 	min-width: 300px;
 	min-height: 310px;	
@@ -629,9 +629,12 @@ footer {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-webkit-justify-content: space-around;
-		-ms-flex-pack: distribute;
-		justify-content: space-around;
+
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	
 		-webkit-box-align: center;
 		-webkit-align-items: center;
 		-ms-flex-align: center;
