@@ -132,8 +132,10 @@ header {
 }
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
+/*
 	width: 100%;	
 	height: auto;
+*/
 	width: 300px;
 /*	min-height: 310px;*/
 	min-width: 300px;
