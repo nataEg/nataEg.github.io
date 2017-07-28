@@ -627,6 +627,8 @@ footer {
 	-ms-flex-pack: distribute;
 	-webkit-box-pack: space-between;
 	justify-content: space-between;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;	
 }
 .cbm_wrap {
 		width: 18%;
