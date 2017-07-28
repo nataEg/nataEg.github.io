@@ -490,8 +490,10 @@ footer {
 		max-height: 610px;
 	}
 	.cbm_wrap img {
-			width: 100%;
-			margin-top: 15px;
+		max-width: 100%;
+		height: auto;
+/*			margin-top: 15px;*/
+		
 	}	
 	/*
 	.image-grid {
