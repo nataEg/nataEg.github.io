@@ -626,10 +626,12 @@ footer {
 	-webkit-box-pack: space-between;
 	justify-content: space-between;
 }
-.cbm_wrap{
-		width: 20%;
+.cbm_wrap {
+		width: 18%;
 /*	width: 300px;*/
 /*	min-height: 310px;*/
+	min-width: 300px;
+	min-height: 310px;
 	padding: 0.5em;	
 	margin:  1em auto;
 }
