@@ -473,21 +473,10 @@ footer {
 	}	
 	
 	.wrapper_body {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-flex-wrap: nowrap;
-		-ms-flex-wrap: nowrap;
-		flex-wrap: nowrap;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
+		-webkit-box-orient: horizontal;		
+		-webkit-box-direction: normal;		
+		-webkit-flex-direction: row;		
+		-ms-flex-direction: row;		
 		flex-direction: row;
 	}
 
