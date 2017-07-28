@@ -177,20 +177,23 @@ header {
 
 .image-grid {
 	margin-top: 24px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 }
 .image-grid div {
-/*	width: calc(100%/3);*/
 	height: 300px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-/*
-	opacity: 0.8;	
-	transition: opacity 0.3s ease-in-out;
-*/
 }
 /*
 .image-grid div:hover {
