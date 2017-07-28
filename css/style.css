@@ -505,7 +505,7 @@ footer {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		
-		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
 	}
 	.thumbs {
 /*		display: inline-block;*/
