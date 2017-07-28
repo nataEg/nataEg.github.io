@@ -615,6 +615,31 @@ footer {
 	.banner-text h1 {
 		font-size: 64px;
 	}	
+	
+/*Блоки текста*/
+
+.wrapper_body {
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+.cbm_wrap{
+	width: 300px;
+	min-height: 310px;
+	padding: 0.5em;	
+	margin:  1em auto;
+}
+.cbm_wrap img {
+    width: 100%;
+    margin-top: 15px;
+}
+	
+	
 /*
 	.image-grid {
 		flex-direction: column;
