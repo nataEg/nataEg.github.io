@@ -490,6 +490,7 @@ footer {
 	
 .wrapper_body{
 		display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;
+		-webkit-box-align: stretch;-webkit-align-items: stretch;-ms-flex-align: stretch;-ms-grid-row-align: stretch;align-items: stretch;
     padding: 20px 0;
     height: 100%;
     width: 100%;
