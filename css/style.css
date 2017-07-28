@@ -31,9 +31,22 @@ menu {
 	background: #ccc;
 }
 #top-menu {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
 	align-items: center;	
 	list-style: none;	
 }
@@ -42,9 +55,11 @@ menu {
 }
 #top-menu li a {
 	display: inline-block;
-	padding: 12px 0;
+/*	padding: 12px 0;*/
+	padding: 0.5em;
 	text-decoration: none;
 	color: #00acc1;
+	-webkit-transition: color 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out;
 	border-top: 1px solid rgba(255, 255, 255, 0.4);
 /*	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	*/
