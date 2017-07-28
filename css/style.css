@@ -488,7 +488,39 @@ footer {
 	}	
 */
 	
-
+.wrapper_body {
+/*
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+*/
+	
+/*
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+*/
+	
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	padding: 20px 0; 
+	color: #4A4A4A ;
+	text-align: center;
+}
 	/*
 	.image-grid {
 		flex-direction: column;
