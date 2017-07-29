@@ -185,6 +185,7 @@ header {
 }
  
 .container ul {
+/*
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -196,11 +197,8 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	&:after {
-		content: '';
-		display: inline-block;
-		width: 100%;
-	}
+*/
+	display: block;
 }
 
 .container ul li {
@@ -561,7 +559,22 @@ footer {
 	flex-direction: row;
 }
 
-
+/*Галерея*/
+	
+.container ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+	
 /*Footer*/
 	#footer-content {
 		flex-direction: row;
