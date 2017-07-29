@@ -523,7 +523,7 @@ footer {
 /*Table*/
 
 table {
-	width: 90%;
+	width: 100%;
 	border-spacing: 3em;
 	margin: 30px auto;
 /*	table-layout: fixed;	*/
@@ -621,6 +621,15 @@ table tr td {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	table {width:100%; margin: 30px auto;}
+	tbody td {display: block; text-align:center;}
+	tbody td:before {
+		display: block;
+		text-align:center;
+	}
+/*	tbody td tr img {max-width:96% !important;height:auto !important;}*/
+}
 /*
 @media screen and (max-width: 768px) {
 	.image-grid {
