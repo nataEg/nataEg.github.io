@@ -623,14 +623,14 @@ table tr td {
 
 @media screen and (max-width: 768px) {
 	table {width:100%; margin: 30px auto;}
-	tbody td {display: block;}
+	tbody tr, tbody td {display: block;}
 /*
 	tbody td:before {
 		display: block;
 		text-align:center;
 	}
 */
-	tbody td tr img {max-width:90% !important;height:auto !important;}
+	tbody tr td img {max-width:90% !important;height:auto !important;}
 }
 /*
 @media screen and (max-width: 768px) {
