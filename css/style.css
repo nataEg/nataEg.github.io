@@ -522,13 +522,13 @@ footer {
 
 /*Table*/
 
-table {
+table.gallery {
 	width: 100%;
 	border-spacing: 3em;
 	margin: 30px auto;
 /*	table-layout: fixed;	*/
 }
-table tr td {
+table.gallery tbody tr td {
 	width: 450px;
 }
 .image-td {
@@ -622,8 +622,27 @@ table tr td {
 }
 
 @media screen and (max-width: 768px) {
-	table {width:100%; margin: 30px auto;}
-	tbody tr, tbody td {display: block;}
+	.gal {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	table.gallery {width:100%; margin: 30px auto;}
+	table.gallery,
+	table.gallery tbody,
+	table.gallery tbody tr,
+	table.gallery tbody tr td {
+		display: block;
+	}
 /*
 	tbody td:before {
 		display: block;
