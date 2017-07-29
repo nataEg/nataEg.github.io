@@ -521,15 +521,23 @@ footer {
 }
 
 /*Table*/
-
-table.gallery {
+/*
+.gal {
+	display: block;
 	width: 100%;
+	height: 100%;
+	margin: 30px auto;	
+}
+*/
+/*
+table.gallery {
+	width: 1400px;
 	border-spacing: 3em;
-	margin: 30px auto;
-/*	table-layout: fixed;	*/
+  text-align: center;	
 }
 table.gallery tbody tr td {
 	width: 450px;
+	height: 310px;	
 }
 .image-td {
 	width: 450px;
@@ -538,6 +546,7 @@ table.gallery tbody tr td {
 	background-size: cover;
 	background-repeat: no-repeat;			
 }
+*/
 
 @media screen and (min-width: 1024px) {
 	#top-menu {
@@ -622,34 +631,7 @@ table.gallery tbody tr td {
 }
 
 @media screen and (max-width: 768px) {
-	.gal {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		-ms-flex-align: center;
-		align-items: center;
-	}
-	table.gallery {width:100%; margin: 30px auto;}
-	table.gallery,
-	table.gallery tbody,
-	table.gallery tbody tr,
-	table.gallery tbody tr td {
-		display: block;
-	}
-/*
-	tbody td:before {
-		display: block;
-		text-align:center;
-	}
-*/
-	tbody tr td img {max-width:90% !important;height:auto !important;}
+
 }
 /*
 @media screen and (max-width: 768px) {
