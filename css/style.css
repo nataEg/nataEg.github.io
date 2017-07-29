@@ -30,8 +30,8 @@ body {
 menu {
 	background: #ccc;
 }
-
-#top-menu {
+.list-gal,
+.list {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -51,13 +51,13 @@ menu {
 	align-items: center;	
 	list-style: none;	
 }
-
-#top-menu ul {
+.list-gal ul,
+.list ul {
 /*	padding: 12px 0;*/
 	margin: 0.5em;	
 }
-
-#top-menu li a {
+.list-gal li a,
+.list li a {
 	display: inline-block;
 /*	padding: 12px 0;*/
 	text-decoration: none;
@@ -66,7 +66,8 @@ menu {
 	transition: color 0.5s ease-in-out;
 	border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
-#top-menu li a:hover {
+
+.list li a:hover {
 	color: #FFF852;
 }
 
@@ -183,7 +184,9 @@ header {
 	margin: 30px auto;
 /*	overflow: hidden;*/
 }
- 
+.gal {
+	display: block;
+}	 
 .container ul {
 /*
   display: -webkit-box;
@@ -202,14 +205,8 @@ header {
 }
 
 .container ul li {
-    flex-grow: 1;
-  /*  flex-shrink: 3;*/
-/*    flex-basis: 450px;*/
-    list-style:none; 
-/*    font: 10px/1.5 Verdana, Helvetica, Sans-serif;*/
-/*    width: 16%;*/
-/*    margin: 2% 2% 40px 2%;*/
-/* опционально */	
+  flex-grow: 1;
+  list-style:none; 
 	max-width: 450px; 
 	height: 300px;
 	background-position: center center;
@@ -549,7 +546,8 @@ table.gallery tbody tr td {
 */
 
 @media screen and (min-width: 1024px) {
-	#top-menu {
+	.list-gal,
+	.list {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: row;
@@ -564,13 +562,16 @@ table.gallery tbody tr td {
 		-ms-grid-row-align: center;
 		align-items: center;	
 	}
-	#top-menu li {
+	.list-gal li,
+	.list li {
 		padding: 0.5em;
 	}
-	#top-menu li a {
+	.list-gal li a,
+	.list li a {
 		border: none;
 	}
-	#top-menu li a img {
+	.list-gal li a img,
+	.list li a img {
 		width: 100%;
 		height: auto;
 	}	
@@ -588,6 +589,7 @@ table.gallery tbody tr td {
 
 /*Галерея*/
 	
+/*
 .container ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -601,6 +603,16 @@ table.gallery tbody tr td {
 	-ms-flex-pack: center;
 	justify-content: center;
 }
+*/
+/*
+.list-gal {
+	display: table;
+}	
+.gal {
+	display: table-cell;
+	text-align: center;
+}	
+*/
 	
 /*Footer*/
 	#footer-content {
@@ -643,13 +655,13 @@ table.gallery tbody tr td {
 		height: 400px;
 		margin: 0 auto;
 	}	
-  #top-menu {
+  .list {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
     justify-content: space-around;
     padding: 0;
   }
-  #top-menu li a {
+  .list li a {
 		display: block;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
