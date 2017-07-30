@@ -4,9 +4,7 @@
 	box-sizing: border-box;
 	font-family: Roboto, sans-serif;
 }
-html{
-    min-width: 1024px;
-}
+
 body {
 /*	font-size: 16px;*/
   background:url(../images/bg.jpg);	
@@ -550,6 +548,9 @@ table.gallery tbody tr td {
 */
 
 @media screen and (min-width: 1024px) {
+	html {
+		 min-width: 1024px;
+	}
 	.list-gal,
 	.list {
 /*
