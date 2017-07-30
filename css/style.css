@@ -397,7 +397,7 @@ header {
 #map {
 /*	flex-basis: 50%;*/
 	background: rgba(255,255,255,0.3);
-	width: 600px;
+/*	width: 600px;*/
 	min-height: 310px;
 	padding: 12px;
 	box-shadow: 0 0 8px 0 rgba(0,0,0,0.2),   inset 0 0 1px 0 rgba(255,255,255,1);
@@ -649,8 +649,11 @@ table.gallery tbody tr td {
 	}
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 617px) {
+	#map {
+		width: 550px;
+		height: 366px;
+	}
 }
 /*
 @media screen and (max-width: 768px) {
