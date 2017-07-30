@@ -188,7 +188,6 @@ header {
 	display: block;
 }	 
 .container ul {
-/*
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -200,12 +199,15 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-*/
 
 }
 
 .container ul li {
-  flex-grow: 1;
+/*  flex-grow: 1;*/
+/*
+	display: flex;
+	flex-shrink: 1;
+*/
   list-style:none; 
 	max-width: 450px; 
 	height: 300px;
@@ -548,8 +550,10 @@ table.gallery tbody tr td {
 @media screen and (min-width: 1024px) {
 	.list-gal,
 	.list {
+/*
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
+*/
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
