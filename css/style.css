@@ -650,6 +650,9 @@ table.gallery tbody tr td {
 }
 
 @media screen and (max-width: 617px) {
+	html {
+		 min-width: 617px;
+	}	
 	#map {
 		width: 550px;
 		height: 366px;
