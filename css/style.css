@@ -549,7 +549,7 @@ table.gallery tbody tr td {
 
 @media screen and (min-width: 1024px) {
 	html {
-		 min-width: 1024px;
+		 min-width: 1020px;
 	}
 	.list-gal,
 	.list {
