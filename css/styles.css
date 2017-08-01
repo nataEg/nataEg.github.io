@@ -58,7 +58,7 @@ body {
 	display: flex;
   width: 100%;
   max-width: 520px; /* опционально */
-	max-height: 345px;
+/*	max-height: 345px;*/
 /*  margin: 10px;*/
   opacity: .99;
 /*  overflow: hidden;*/
@@ -92,10 +92,9 @@ body {
   display: flex;
 	align-items: center;
 */
-/*
+/*	display: block;*/
   width: 100%; 
   height: auto; 
-*/
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
