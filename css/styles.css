@@ -20,21 +20,25 @@ body {
 }
 #headerwrap h1{
 	color: #fff;
-	font-size: 4vw; /*	64px=4vw (64/16=4)*/
+	font-size: 5vw; /*	64px=4vw (64/16=4)*/
 /*	64px=4vw (64/16=4)*/
 	font-weight: 600;
 	letter-spacing: 3px;
 /*	text-transform: uppercase;*/
 }
 #headerwrap h2{
-	font-size: 1.25vw;
+	font-size: 3vw;
 	font-weight: 500;
 	color: #fff;	
 }
 .text-block {
 	padding: 25px;
 }
-
+.razd {
+	font-size: 3vw;
+	font-weight: 400;
+	color: #fff;		
+}
 /*Достопримечательности*/
 
 /*
