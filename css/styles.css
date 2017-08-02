@@ -93,7 +93,7 @@ body {
   transition-duration: 0.3s;
 }
 .thumb img {
-  display: block;
+  display: inline-block;
   max-width: 100%; /* ширина картинки */
   height: auto; /* высота картинки */
 	object-fit: cover;	
