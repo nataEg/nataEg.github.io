@@ -20,14 +20,14 @@ body {
 }
 #headerwrap h1{
 	color: #fff;
-	font-size: 5vw; /*	64px=4vw (64/16=4)*/
+	font-size: 4rem; /*	64px=4vw (64/16=4), 1rem=16px*/
 /*	64px=4vw (64/16=4)*/
 	font-weight: 600;
 	letter-spacing: 3px;
 /*	text-transform: uppercase;*/
 }
 #headerwrap h2{
-	font-size: 3vw;
+	font-size: 3rem;
 	font-weight: 500;
 	color: #fff;	
 }
