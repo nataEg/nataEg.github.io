@@ -157,6 +157,7 @@ body {
 .button-up {
 	width: 32px;
 	height: 32px;
+	margin: 0 auto;
 }
 .panel-footer {
 /*	background: #000;*/
