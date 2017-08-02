@@ -57,6 +57,7 @@ body {
 /*	padding: 0;*/
 }
 .thumb {
+	display: flex;
   width: 100%;
   max-width: 450px; /* опционально */
   margin: 10px;
@@ -89,6 +90,7 @@ body {
   display: block;
   width: 100%; /* ширина картинки */
   height: auto; /* высота картинки */
+	object-fit: cover;	
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
