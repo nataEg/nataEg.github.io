@@ -46,8 +46,7 @@ body {
 }
 /*Достопримечательности*/
 .gallery {
-	display: flex;
-	justify-content: center;
+
 /*
 	background-size: contain;
 	background-position: center center;
@@ -57,7 +56,14 @@ body {
 */
 	padding: 30px 0;
 }
-
+.gallery .col-xs-12,
+.gallery .col-sm-12,
+.gallery .col-md-6,
+.gallery .col-lg-4,
+.gallery .col-xl-4 {
+	display: flex;
+	justify-content: center;
+}
 /*Текст в галерее*/
 
 .house {
@@ -96,6 +102,10 @@ body {
 }
 .thumb img {
   display: inline-block;
+/*
+	display: flex;
+	justify-content: center;	
+*/
   max-width: 100%; /* ширина картинки */
   height: auto; /* высота картинки */
 	object-fit: cover;	
