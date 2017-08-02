@@ -94,7 +94,7 @@ body {
 }
 .thumb img {
   display: block;
-  width: 100%; /* ширина картинки */
+  max-width: 100%; /* ширина картинки */
   height: auto; /* высота картинки */
 	object-fit: cover;	
   backface-visibility: hidden;
