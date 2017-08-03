@@ -217,23 +217,23 @@ body {
 /* текст на мобильной версии меньше, чем на других устройствах */
 /* на xs */
 .display-4 {
-  font-size: 16px;
+  font-size: 18px;
 }
 /* на sm */
 @media (min-width: 768px) {
 .display-4 {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 /* на md */
 @media (min-width: 992px) {
 .display-4 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 /* на lg */
 @media (min-width: 1200px) {
 .display-4 {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
