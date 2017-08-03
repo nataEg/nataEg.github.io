@@ -36,12 +36,13 @@ body {
 	color: #fff;	
 }
 .text-block {
-	padding: 25px;
+/*	padding: 0 0 25px 0;*/
 }
 .razd {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 400;
-	color: #fff;		
+	color: #fff;	
+	margin: 1.5rem;
 }
 /*Достопримечательности*/
 .gallery {
@@ -53,7 +54,10 @@ body {
   width: 100%; 
   height: auto; 	
 */
+/*
+	margin: 1.5rem;
 	padding: 30px 0;
+*/
 }
 .gallery .col-xs-12,
 .gallery .col-sm-12,
@@ -65,8 +69,10 @@ body {
 }
 /*Текст в галерее*/
 
-.house {
-/*	padding: 0;*/
+.house-img {
+  max-width: 100%;
+  height: auto;
+	object-fit: cover;		
 }
 .thumb {
 	display: flex;
