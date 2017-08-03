@@ -206,7 +206,8 @@ body {
 #informer,
 .card-title,
 .card-text,
-#button-up {
+#button-up,
+#social {
 	text-align: center;	
 }
 .card-foot {
