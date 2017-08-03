@@ -44,8 +44,11 @@ body {
 .display-4 {
 	text-align: center;
 }
+.display-1 {
+	font-size: 40px;
+}
 .display-4 {
-	font-size: 2rem;
+	font-size: 24px;
 }
 .text-block {
 /*	padding: 0 0 25px 0;*/
@@ -216,23 +219,30 @@ body {
 
 /* текст на мобильной версии меньше, чем на других устройствах */
 /* на xs */
-.display-4 {
-  font-size: 22px;
-}
+
 /* на sm */
 @media (min-width: 768px) {
+.display-1 {
+  font-size: 38px;
+}	
 .display-4 {
     font-size: 24px;
   }
 }
 /* на md */
 @media (min-width: 992px) {
+.display-1 {
+  font-size: 40px;
+}		
 .display-4 {
     font-size: 26px;
   }
 }
 /* на lg */
 @media (min-width: 1200px) {
+.display-1 {
+  font-size: 42px;
+}		
 .display-4 {
     font-size: 28px;
   }
