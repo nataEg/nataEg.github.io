@@ -40,6 +40,13 @@ body {
 */
 	color: #fff;	
 }
+.display-1,
+.display-4 {
+	text-align: center;
+}
+.display-4 {
+	font-size: 2rem;
+}
 .text-block {
 /*	padding: 0 0 25px 0;*/
 }
