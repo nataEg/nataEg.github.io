@@ -44,11 +44,16 @@ body {
 .display-4 {
 	text-align: center;
 }
+/*
 .display-1 {
 	font-size: 40px;
 }
 .display-4 {
 	font-size: 24px;
+}
+*/
+.card-group {
+	margin-top: 1em;
 }
 .text-block {
 /*	padding: 0 0 25px 0;*/
@@ -219,7 +224,14 @@ body {
 
 /* текст на мобильной версии меньше, чем на других устройствах */
 /* на xs */
-
+@media (min-width: 320px) {
+.display-1 {
+  font-size: 40px;
+}	
+.display-4 {
+    font-size: 24px;
+  }
+}
 /* на sm */
 @media (min-width: 768px) {
 .display-1 {
@@ -241,9 +253,9 @@ body {
 /* на lg */
 @media (min-width: 1200px) {
 .display-1 {
-  font-size: 42px;
+  font-size: 64px;
 }		
 .display-4 {
-    font-size: 28px;
+    font-size: 40px;
   }
 }
