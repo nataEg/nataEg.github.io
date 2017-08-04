@@ -652,6 +652,7 @@ footer {
 	#map {
 /*		flex-grow: 1;*/
 		flex-basis: 65%;
+		text-align: center;
 	}	
 	
 }
