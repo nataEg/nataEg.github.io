@@ -650,16 +650,12 @@ footer {
 		max-width: 200px;
 	}
 	#map {
-/*		flex-grow: 1;*/
 		flex-basis: 40%;
- 		margin: 0;
-  	padding: 0;
-/*  	line-height: 1.5;			*/
 		text-align: center;
+/*		align-items: center;*/
 	}	
-	#map a {
-/*		display: inline-flex;*/
-	
+	#map > div {
+ 		width: 100%;
 /*		margin: 0 auto;*/
 	}
 }
