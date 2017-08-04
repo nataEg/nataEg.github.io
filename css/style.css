@@ -634,23 +634,25 @@ footer {
 		margin: 0 auto;
 	}
 	
-/*
 	.wrapper_body_map {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+/*
 		justify-content: center;
 		text-align: center;
+*/
 	}
-*/
+	.reklama {
 /*
-	#map {
-		flex-basis: 100%;
-		background: rgba(255,255,255,0.3);
-		width: 50%;
-
-	}	
+		flex-basis: 300px;
+		flex-shrink: 0;		
 */
+	}
+	#map {
+/*		flex-grow: 1;*/
+		flex-basis: 60%;
+	}	
 	
 }
 
