@@ -648,13 +648,17 @@ footer {
 		flex-basis: 300px;
 		flex-shrink: 0;		
 */
+		max-width: 200px;
 	}
 	#map {
 /*		flex-grow: 1;*/
-		flex-basis: 60%;
+		flex-basis: 40%;
 		text-align: center;
 	}	
-	
+	#map a {
+		display: inline-flex;
+/*		margin: 0 auto;*/
+	}
 }
 
 
