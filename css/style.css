@@ -15,13 +15,13 @@ body {
 	background-repeat: repeat;
 }
 .small {
-  font-size: 1.6rem; /* 75% of the baseline */
+  font-size: 2.6rem; /* 75% of the baseline */
 }
 .midi {
-  font-size: 1.8rem;	
+  font-size: 2.8rem;	
 }
 .large {
-  font-size: 2rem; /* 125% of the baseline */
+  font-size: 3rem; /* 125% of the baseline */
 }
 .caps {
 	text-transform: uppercase;
@@ -30,7 +30,7 @@ body {
 	font-weight: 500;	
 }
 h2 {
-  font-size: 2rem;		
+  font-size: 3.5rem;		
 }
 /*Меню*/
 
