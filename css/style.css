@@ -15,10 +15,10 @@ body {
 	background-repeat: repeat;
 }
 .small {
-  font-size: 2.6rem; /* 75% of the baseline */
+  font-size: 2rem; /* 75% of the baseline */
 }
 .midi {
-  font-size: 2.8rem;	
+  font-size: 2.5rem;	
 }
 .large {
   font-size: 3rem; /* 125% of the baseline */
