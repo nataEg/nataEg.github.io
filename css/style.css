@@ -29,9 +29,11 @@ body {
 /*  font-size: 1.8rem;	*/
 	font-weight: 500;	
 }
+/*
 h2 {
-  font-size: 3.5rem;		
+  font-size: 3rem;		
 }
+*/
 /*Меню*/
 
 menu {
@@ -100,13 +102,13 @@ header {
 }
 .banner-text h1 {
 	color: #fff;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	text-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.5);
 	text-align: center;	
 }
 .banner-text h2 {
 	color: #fff;
-	font-size: 2rem;
+	font-size: 3rem;
 	text-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.5);
 	text-align: center;	
 }
@@ -140,7 +142,7 @@ header {
 /*.cbm_wrap_map,*/
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
-	width: 30rem;
+	width: 40rem;
 	min-height: 31rem;
 	padding: 1.2rem;
 	margin:  2rem auto;	
