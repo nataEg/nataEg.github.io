@@ -770,7 +770,9 @@ footer {
 }
 */
 @media screen and (max-width: 320px) {
-	#fotoslider {
+	#fotoslider,
+	#attraction,
+	#here {
 		font-size: 2rem;		
 	}
 	#social-block {
