@@ -430,7 +430,6 @@ header {
 #map {
 	flex-basis: 100%;
 	background: rgba(255,255,255,0.3);
-/*	margin: 0 2rem;*/
 }
 
 /*Footer*/
@@ -633,42 +632,10 @@ footer {
 	}		
 }
 
-@media screen and (max-width: 320px) {
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 2rem;		
-	}
-	#social-block {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}
+@media screen and (max-width: 600px) {
 	#map {
-		max-width: 31rem;
-		max-height: 20.6rem;		
+		margin: 0 2rem;		
 	}
-}
-	
-@media screen and (max-width: 384px) {
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 1.9rem;		
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}	
-	.reklama > p {
-		font-size: 1.4rem;	
-	}		
 }
 
 @media screen and (max-width: 414px) {
@@ -698,31 +665,40 @@ footer {
 	}		
 }
 
-
-/*
-@media screen and (max-width: 600px) {
-	.image-grid {
-		flex-direction: column;
+@media screen and (max-width: 384px) {
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 1.9rem;		
 	}
-	.image-grid div {
-		width: 100%;
-		height: 400px;
-		margin: 0 auto;
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
 	}	
+	.reklama > p {
+		font-size: 1.4rem;	
+	}		
 }
-*/
 
-/*
-@media screen and (max-width: 520px) {
-	.banner-text h1 {
-		font-size: 40px;
+@media screen and (max-width: 320px) {
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 2rem;		
 	}
-	#footer-content {
+	#social-block {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-	}	
+	}
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}
+	#map {
+		max-width: 31rem;
+		max-height: 20.6rem;		
+	}
 }
-*/
-
-
