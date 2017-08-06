@@ -780,7 +780,7 @@ footer {
 		justify-content: center;
 		align-items: center;
 	}
-	.reklama h3 {
+	.reklama > h3 {
 		font-size: 1.7rem;	
 	}
 	#map {
