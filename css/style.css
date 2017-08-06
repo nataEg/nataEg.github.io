@@ -708,12 +708,17 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
+	.large {
+		font-size: 2rem;		
+	}
+/*
 	.list li a,
 	#fotoslider,
 	#attraction,
 	#here {
 		font-size: 1.9rem;		
 	}		
+*/
 	.cbm_wrap h3,
 	.reklama > h3 {
 		font-size: 1.7rem;	
