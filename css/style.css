@@ -706,9 +706,18 @@ footer {
 	.reklama > h3 {
 		font-size: 1.7rem;	
 	}
+/*
 	#map {
 		max-width: 31rem;
 		max-height: 20.6rem;		
 		margin: 0 auto;
 	}
+*/
+	#map {
+		flex-basis: 40%;
+		text-align: center;
+	}	
+	#map div {
+ 		object-fit: cover;
+	}			
 }
