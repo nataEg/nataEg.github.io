@@ -174,9 +174,11 @@ header {
 }
 .cbm_wrap p{
 	margin-top: 1.5rem !important;
-	text-align: justify !important;
+	text-align: justify;
 }
-
+.reklama > p{
+	text-align: center !important;
+}
 
 /**************/
 /*Слайдер*/
@@ -385,7 +387,8 @@ header {
 .thumbs .caption .title {
   line-height: 1;
   font-weight: normal;
-  font-size: 1.8rem;
+	text-transform: uppercase;	
+/*  font-size: 1.8rem;*/
 }
 .thumbs .caption .info {
   line-height: 1.2;
@@ -456,9 +459,6 @@ header {
 	flex-basis: 100%;
 	background: rgba(255,255,255,0.3);
 	margin: 0 2rem;
-}
-.reklama > p {
-	text-align: center;
 }
 
 /*Footer*/
