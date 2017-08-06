@@ -648,6 +648,12 @@ footer {
 		-ms-flex-direction: row;
 		flex-direction: row;
 	}	
+	.cbm_wrap {
+		width: 25rem;
+		min-height: 24.3rem;
+		padding: 1.2rem;
+		margin:  2rem auto;	
+	}	
 }
 @media screen and (max-width: 600px) {
 	#map {
