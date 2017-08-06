@@ -770,7 +770,7 @@ footer {
 }
 */
 @media screen and (max-width: 320px) {
-	.list > li,
+	.list > li > a,
 	#fotoslider,
 	#attraction,
 	#here {
