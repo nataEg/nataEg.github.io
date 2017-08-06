@@ -705,24 +705,16 @@ footer {
 	.reklama > p {
 		font-size: 1.4rem;	
 	}		
-/*
-	#social-block {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}
-	#map {
-		max-width: 31rem;
-		max-height: 20.6rem;		
-	}
-*/
 }
 
-@media screen and (max-width: 617px) {
-
+@media screen and (max-width: 414px) {
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}	
+	.reklama > p {
+		font-size: 1.4rem;	
+	}		
 }
 @media screen and (max-width: 1024px) {
 .wrapper_body_map {
