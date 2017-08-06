@@ -709,5 +709,6 @@ footer {
 	#map {
 		max-width: 31rem;
 		max-height: 20.6rem;		
+		margin: 0 auto;
 	}
 }
