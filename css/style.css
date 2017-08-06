@@ -142,7 +142,7 @@ header {
 /*.cbm_wrap_map,*/
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
-	width: 40rem;
+	width: 30rem;
 	min-height: 31rem;
 	padding: 1.2rem;
 	margin:  2rem auto;	
@@ -580,7 +580,9 @@ footer {
 	color: #FFF852;	
 }
 
-
+#autor {
+	font-size: 2rem;
+}
 /*================== Медиа запросы ======================================*/
 
 @media screen and (min-width: 1024px) {
