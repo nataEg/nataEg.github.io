@@ -776,6 +776,9 @@ footer {
 	#here {
 		font-size: 1.9rem;		
 	}
+	.reklama > h3 {
+		font-size: 1.5rem;	
+	}	
 /*
 	#social-block {
 		flex-direction: column;
