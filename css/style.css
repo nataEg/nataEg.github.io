@@ -770,6 +770,9 @@ footer {
 }
 */
 @media screen and (max-width: 320px) {
+	#fotoslider {
+		font-size: 2rem;		
+	}
 	#social-block {
 		flex-direction: column;
 		justify-content: center;
