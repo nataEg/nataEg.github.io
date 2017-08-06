@@ -681,7 +681,7 @@ footer {
 		justify-content: center;
 		align-items: center;
 	}
-	.cbm_wrap > h3,
+	.cbm_wrap h3,
 	.reklama > h3 {
 		font-size: 1.7rem;	
 	}
@@ -698,7 +698,7 @@ footer {
 	#here {
 		font-size: 1.9rem;		
 	}
-	.cbm_wrap > h3,
+	.cbm_wrap h3,
 	.reklama > h3 {
 		font-size: 1.7rem;	
 	}	
