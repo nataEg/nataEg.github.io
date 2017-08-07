@@ -549,7 +549,7 @@ footer {
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
 	.list-gal,
 	.list {
 		-webkit-flex-direction: row;
