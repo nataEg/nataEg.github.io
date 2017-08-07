@@ -541,133 +541,12 @@ footer {
 /*================== Медиа запросы ======================================*/
 
 
-@media screen and (max-width: 320px) {
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 2rem;		
-	}
-	#social-block {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}
-/*
-	#map {
-		max-width: 31rem;
-		max-height: 20.6rem;		
-		margin: 0 auto;
-	}
-*/
-	#map {
-		flex-basis: 40%;
-		text-align: center;
-	}	
-	#map div {
- 		object-fit: cover;
-	}			
-}
 
-@media screen and (max-width: 384px) {
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 1.9rem;		
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}	
-	.reklama > p {
-		font-size: 1.4rem;	
-	}		
-}
 
-/*@media screen and (max-width: 414px) {*/
-@media screen and (min-width: 414px) and (max-width: 598px) {	
-.banner-text h2 {
-	color: #fff;
-	font-size: 2.8rem;
-	text-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.5);
-	text-align: center;	
-}	
-	.large {
-		font-size: 2rem;		
-	}
-/*
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 1.9rem;		
-	}		
-*/
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}	
-	.reklama > p {
-		font-size: 1.4rem;	
-	}		
-}
 
-@media screen and (min-width: 599px) and (max-width: 1023px) {
-	.wrapper_body_map,
-/*	#footer-content,*/
-	.wrapper_body {
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
-	}	
-	.cbm_wrap {
-		width: 100%;		
-/*		width: 25rem;*/
-		min-height: 24.3rem;
-		padding: 1.2rem;
-		margin:  2rem auto;	
-	}	
-	#informer {
-		order: 1;
-		padding-top: 0.5rem;
-		text-align: center;		
-	}
-	.contacts {
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;	
-		flex-flow: row wrap;
-		justify-content: space-around;
-/*		flex-basis: 100%;		*/
-	}
-	.phone,
-	.post,
-	.shedule {
-		padding: 1rem;
-		margin: 1rem;
-	}
-	#phone-text {
-		font-size: 10px;
-	}
-	#phone-number {
-		font-size: 8px;		
-	}
-	#social-block {
-		order: 0;
-		flex-grow: 1;	
-/*		padding: 1rem;*/
-		margin: 1rem 0 0 0;		
-	}
-	#button-up {
-		order: 1;
-		flex-grow: 1;			
-	}
-}
+
+
+
 
 
 @media screen and (min-width: 1023px) {
@@ -776,8 +655,129 @@ footer {
 	}		
 }
 
+@media screen and (min-width: 599px) and (max-width: 1023px) {
+	.wrapper_body_map,
+/*	#footer-content,*/
+	.wrapper_body {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}	
+	.cbm_wrap {
+		width: 100%;		
+/*		width: 25rem;*/
+		min-height: 24.3rem;
+		padding: 1.2rem;
+		margin:  2rem auto;	
+	}	
+	#informer {
+		order: 1;
+		padding-top: 0.5rem;
+		text-align: center;		
+	}
+	.contacts {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;	
+		flex-flow: row wrap;
+		justify-content: space-around;
+/*		flex-basis: 100%;		*/
+	}
+	.phone,
+	.post,
+	.shedule {
+		padding: 1rem;
+		margin: 1rem;
+	}
+	#phone-text {
+		font-size: 10px;
+	}
+	#phone-number {
+		font-size: 8px;		
+	}
+	#social-block {
+		order: 0;
+		flex-grow: 1;	
+/*		padding: 1rem;*/
+		margin: 1rem 0 0 0;		
+	}
+	#button-up {
+		order: 1;
+		flex-grow: 1;			
+	}
+}
 
+@media screen and (max-width: 414px) {
+.banner-text h2 {
+	color: #fff;
+	font-size: 2.8rem;
+	text-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.5);
+	text-align: center;	
+}	
+	.large {
+		font-size: 2rem;		
+	}
+/*
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 1.9rem;		
+	}		
+*/
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}	
+	.reklama > p {
+		font-size: 1.4rem;	
+	}		
+}
 
+@media screen and (max-width: 384px) {
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 1.9rem;		
+	}
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}	
+	.reklama > p {
+		font-size: 1.4rem;	
+	}		
+}
 
-
-
+@media screen and (max-width: 320px) {
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 2rem;		
+	}
+	#social-block {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}
+/*
+	#map {
+		max-width: 31rem;
+		max-height: 20.6rem;		
+		margin: 0 auto;
+	}
+*/
+	#map {
+		flex-basis: 40%;
+		text-align: center;
+	}	
+	#map div {
+ 		object-fit: cover;
+	}			
+}
