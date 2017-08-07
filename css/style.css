@@ -641,7 +641,7 @@ footer {
 	}		
 }
 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
+@media screen and (min-width: 599px) and (max-width: 1023px) {
 	.wrapper_body_map,
 /*	#footer-content,*/
 	.wrapper_body {
