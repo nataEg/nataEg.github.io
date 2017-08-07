@@ -583,12 +583,26 @@ footer {
 	
 /*Текстовые блоки*/
 	
+/*
 .wrapper_body {
 	-webkit-flex-direction: row;
 	-ms-flex-direction: row;
 	flex-direction: row;
 }
-
+*/
+	.wrapper_body_map,
+	.wrapper_body {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}	
+	.cbm_wrap {
+/*		width: 100%;		*/
+/*		width: 25rem;*/
+		min-height: 24.3rem;
+		padding: 1.2rem;
+		margin:  2rem auto;	
+	}	
 /*Footer*/
 	#footer-content {
 		flex-direction: row;
