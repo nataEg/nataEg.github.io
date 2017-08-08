@@ -706,7 +706,12 @@ footer {
 		flex-grow: 1;			
 	}
 }
-
+@media screen and (min-width: 413px) and (max-width: 599px) {
+	#informer {
+		padding-top: 0.5rem;
+		text-align: center;		
+	}		
+}
 @media screen and (max-width: 414px) {
 .banner-text h2 {
 	color: #fff;
@@ -757,10 +762,40 @@ footer {
 	#here {
 		font-size: 2rem;		
 	}
+	.wrapper_body_map,
+	.wrapper_body {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}	
+	.cbm_wrap {
+		width: 100%;		
+/*		width: 25rem;*/
+/*
+		min-height: 24.3rem;
+		padding: 1.2rem;
+*/
+		margin:  2rem auto;	
+	}		
+	#slider {
+		max-width: 100%;
+		margin: 4rem auto 5rem;
+	}
+	.sl {
+		width: 100%;
+		margin: 0 auto;
+	}	
+	#informer {
+		order: 1;
+	}
 	#social-block {
+		order: 0;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	#button-up {
+		order: 1;
 	}
 	.cbm_wrap h3,
 	.reklama > h3 {
