@@ -659,7 +659,8 @@ footer {
 		width: 100%;		
 		margin: 0 auto;	
 	}		
-	.cbm_wrap {
+	.cbm_wrap,
+	.cbm_wrap .reklama {
 		width: 100%;		
 		margin: 0 auto;	
 	}	
