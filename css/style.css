@@ -767,6 +767,7 @@ footer {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+		padding: 0;
 	}	
 	.cbm_wrap {
 		width: 100%;		
