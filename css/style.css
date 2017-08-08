@@ -547,7 +547,7 @@ footer {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
 	.list li a,
 	#fotoslider,
 	#attraction,
@@ -607,7 +607,7 @@ footer {
 	}			
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (min-width: 384px) {
 	.list li a,
 	#fotoslider,
 	#attraction,
