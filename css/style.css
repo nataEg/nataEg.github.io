@@ -672,7 +672,10 @@ footer {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
 	}	
 	.cbm_wrap {
 		width: 100%;		
@@ -766,6 +769,13 @@ footer {
 		margin:  2rem auto;	
 */
 	}	
+	#map {
+		flex-basis: 100%;
+		text-align: center;
+	}	
+	#map div {
+ 		object-fit: cover;
+	}				
 /*Footer*/
 	#footer-content {
 		flex-direction: row;
