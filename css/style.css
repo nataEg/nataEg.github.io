@@ -667,11 +667,15 @@ footer {
 }
 
 @media screen and (min-width: 599px) {
-/*
 	.wrapper_body {
-		width: 100%;		
+		padding: 0;		
 		margin: 0 auto;	
 	}	
+/*
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 */
 }
 
