@@ -726,6 +726,7 @@ footer {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+/*
 		-webkit-justify-content: center;
 		-ms-flex-pack: distribute;
 		justify-content: center;
@@ -734,6 +735,7 @@ footer {
 		-ms-flex-align: center;
 		-ms-grid-row-align: center;
 		align-items: center;	
+*/
 	}
 	.list-gal li,
 	.list li {
@@ -742,7 +744,7 @@ footer {
 	.list-gal li a,
 	.list li a {
 		display: block;		
-		border: none;
+/*		border: none;*/
 	}
 	.list-gal li a img,
 	.list li a img {
