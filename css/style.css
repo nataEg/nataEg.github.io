@@ -653,37 +653,15 @@ footer {
 	}	
 }
 
-/*
-@media screen and (max-width: 414px) {
-.banner-text h2 {
-	color: #fff;
-	font-size: 2.8rem;
-	text-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.5);
-	text-align: center;	
-}	
-	.large {
-		font-size: 2rem;		
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}	
-	.reklama > p {
-		font-size: 1.4rem;	
-	}		
-}
-*/
-
-/*
-@media screen and (min-width: 413px) and (max-width: 599px) {
-	#informer {
-		padding-top: 0.5rem;
-		text-align: center;		
-	}		
-}
-*/
 
 @media screen and (min-width: 569px) {
+	.cbm_wrap {
+		width: 100%;		
+		margin: 0 auto;	
+	}	
+}
+
+@media screen and (min-width: 599px) {
 	.cbm_wrap {
 		width: 100%;		
 		margin: 0 auto;	
