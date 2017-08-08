@@ -739,21 +739,7 @@ footer {
 	}		
 }
 
-@media screen and (max-width: 384px) {
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 1.9rem;		
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}	
-	.reklama > p {
-		font-size: 1.4rem;	
-	}		
-}
+
 
 @media screen and (max-width: 320px) {
 	.list li a,
@@ -771,11 +757,6 @@ footer {
 	}	
 	.cbm_wrap {
 		width: 100%;		
-/*		width: 25rem;*/
-/*
-		min-height: 24.3rem;
-		padding: 1.2rem;
-*/
 		margin:  0 auto;	
 	}		
 	#slider {
@@ -802,7 +783,7 @@ footer {
 	.post,
 	.schedule,
 	#social-block {
-		margin-top: 0.8rem;
+		padding: 5px;
 	}
 	#button-up {
 		order: 1;
@@ -818,4 +799,20 @@ footer {
 	#map div {
  		object-fit: cover;
 	}			
+}
+
+@media screen and (max-width: 384px) {
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 1.9rem;		
+	}
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}	
+	.reklama > p {
+		font-size: 1.4rem;	
+	}		
 }
