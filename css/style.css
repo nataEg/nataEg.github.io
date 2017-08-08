@@ -740,11 +740,12 @@ footer {
 	.list-gal li,
 	.list li {
 		padding: 0.5rem;
+		border: none;
+		margin: 0 auto;
 	}
 	.list-gal li a,
 	.list li a {
 		display: block;		
-		border: none;
 	}
 	.list-gal li a img,
 	.list li a img {
