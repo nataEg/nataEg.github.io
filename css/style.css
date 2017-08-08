@@ -564,7 +564,10 @@ footer {
 	.cbm_wrap {
 		width: 100%;		
 		margin:  0 auto;	
-	}		
+	}	
+	#fotoslider {
+		margin-top: 2rem;
+	}
 	#slider {
 		max-width: 83%;
 		margin: 4rem auto 5rem;
