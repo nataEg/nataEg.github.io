@@ -655,6 +655,10 @@ footer {
 
 
 @media screen and (min-width: 569px) {
+	.wrapper_body {
+		width: 100%;		
+		margin: 0 auto;	
+	}		
 	.cbm_wrap {
 		width: 100%;		
 		margin: 0 auto;	
@@ -662,10 +666,12 @@ footer {
 }
 
 @media screen and (min-width: 599px) {
+/*
 	.wrapper_body {
 		width: 100%;		
 		margin: 0 auto;	
 	}	
+*/
 }
 
 @media screen and (min-width: 599px) and (max-width: 1023px) {
