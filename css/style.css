@@ -787,6 +787,9 @@ footer {
 	}	
 	#informer {
 		order: 1;
+		flex-basis: 14%;	
+		padding: 0.5rem;
+		text-align: center;		
 	}
 	#social-block {
 		order: 0;
