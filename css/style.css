@@ -739,7 +739,48 @@ footer {
 	}		
 }
 
-
+@media screen and (max-width: 384px) {
+	.list li a,
+	#fotoslider,
+	#attraction,
+	#here {
+		font-size: 1.9rem;		
+	}
+	.cbm_wrap h3,
+	.reklama > h3 {
+		font-size: 1.7rem;	
+	}	
+	.reklama > p {
+		font-size: 1.4rem;	
+	}	
+#informer {
+		order: 1;
+/*
+		flex-basis: 14%;	
+		padding: 0.5rem;
+		text-align: center;		
+*/
+	}
+	#social-block {
+		order: 0;
+/*
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+*/
+	}
+/*
+	.phone,
+	.post,
+	.schedule,
+	#social-block {
+		padding: 5px;
+	}
+*/
+	#button-up {
+		order: 1;
+	}	
+}
 
 @media screen and (max-width: 320px) {
 	.list li a,
@@ -799,20 +840,4 @@ footer {
 	#map div {
  		object-fit: cover;
 	}			
-}
-
-@media screen and (max-width: 384px) {
-	.list li a,
-	#fotoslider,
-	#attraction,
-	#here {
-		font-size: 1.9rem;		
-	}
-	.cbm_wrap h3,
-	.reklama > h3 {
-		font-size: 1.7rem;	
-	}	
-	.reklama > p {
-		font-size: 1.4rem;	
-	}		
 }
