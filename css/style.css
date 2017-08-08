@@ -795,11 +795,16 @@ footer {
 		padding: 0.5rem;
 		text-align: center;
 	}
+	#contacts {
+		flex-basis: 100%;		
+	}
+/*
 	.phone,
 	.post,
 	.schedule {
 		flex-basis: 18%;
 	}
+*/
 	#social-block {
 		flex-basis: 25%;
 	}
