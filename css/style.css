@@ -683,6 +683,13 @@ footer {
 }
 */
 
+@media screen and (min-width: 768px) {
+	.cbm_wrap {
+		width: 100%;		
+		margin:  0 auto;	
+	}	
+}
+
 @media screen and (min-width: 599px) and (max-width: 1023px) {
 	.wrapper_body_map,
 /*	#footer-content,*/
