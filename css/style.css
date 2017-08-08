@@ -666,18 +666,14 @@ footer {
 	}	
 }
 
+/*
 @media screen and (min-width: 599px) {
 	.wrapper_body {
 		padding: 0;		
 		margin: 0 auto;	
 	}	
-/*
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-*/
 }
+*/
 
 /*
 @media screen and (min-width: 599px) and (max-width: 1023px) {
@@ -765,13 +761,6 @@ footer {
 	
 /*Текстовые блоки*/
 	
-/*
-.wrapper_body {
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
-}
-*/
 	.wrapper_body_map,
 	.wrapper_body {
 		-webkit-flex-direction: row;
