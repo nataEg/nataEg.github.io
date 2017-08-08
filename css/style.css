@@ -672,6 +672,7 @@ footer {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
+		-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;
 	}	
 	.cbm_wrap {
 		width: 100%;		
