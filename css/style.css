@@ -800,7 +800,8 @@ footer {
 	}
 	.phone,
 	.post,
-	.schedule {
+	.schedule,
+	#social-block {
 		margin-top: 0.8rem;
 	}
 	#button-up {
@@ -810,15 +811,8 @@ footer {
 	.reklama > h3 {
 		font-size: 1.7rem;	
 	}
-/*
 	#map {
-		max-width: 31rem;
-		max-height: 20.6rem;		
-		margin: 0 auto;
-	}
-*/
-	#map {
-		flex-basis: 40%;
+		flex-basis: 100%;
 		text-align: center;
 	}	
 	#map div {
