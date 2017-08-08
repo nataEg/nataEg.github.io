@@ -679,9 +679,9 @@ footer {
 */
 }
 
+/*
 @media screen and (min-width: 599px) and (max-width: 1023px) {
 	.wrapper_body_map,
-/*	#footer-content,*/
 	.wrapper_body {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
@@ -689,7 +689,6 @@ footer {
 	}	
 	.cbm_wrap {
 		width: 100%;		
-/*		width: 25rem;*/
 		min-height: 24.3rem;
 		padding: 1.2rem;
 		margin:  2rem auto;	
@@ -705,7 +704,7 @@ footer {
 		flex-direction: row;	
 		flex-flow: row wrap;
 		justify-content: space-around;
-/*		flex-basis: 100%;		*/
+
 	}
 	.phone,
 	.post,
@@ -722,7 +721,6 @@ footer {
 	#social-block {
 		order: 0;
 		flex-grow: 1;	
-/*		padding: 1rem;*/
 		margin: 1rem 0 0 0;		
 	}
 	#button-up {
@@ -730,6 +728,7 @@ footer {
 		flex-grow: 1;			
 	}
 }
+*/
 
 
 @media screen and (min-width: 1023px) {
