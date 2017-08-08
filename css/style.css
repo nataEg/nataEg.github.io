@@ -773,12 +773,13 @@ footer {
 			
 */
 /*Footer*/
-/*
-	#footer-content {
-		flex-direction: row;
-		align-content: center;		
-	}
-*/
+#footer-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;		
+	background: #ccc;	
+}
 /*
 	#social-block {
 		flex-direction: row;
@@ -796,6 +797,15 @@ footer {
 		padding: 0.5rem;
 		text-align: center;
 	}
+/*
+		.contacts {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;	
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+*/
 	#contacts {
 		flex-basis: 100%;		
 	}
