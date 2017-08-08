@@ -74,7 +74,7 @@ menu {
 	color: #00acc1;
 	-webkit-transition: color 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out;
-	border-top: 0.1rem solid rgba(255, 255, 255, 0.4);
+/*	border-top: 0.1rem solid rgba(255, 255, 255, 0.4);*/
 }
 
 .list li a:hover {
