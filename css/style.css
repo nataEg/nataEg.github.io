@@ -662,7 +662,7 @@ footer {
 }
 
 @media screen and (min-width: 599px) {
-	.cbm_wrap {
+	.wrapper_body {
 		width: 100%;		
 		margin: 0 auto;	
 	}	
