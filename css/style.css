@@ -744,7 +744,7 @@ footer {
 	.list-gal li a,
 	.list li a {
 		display: block;		
-/*		border: none;*/
+		border: none;
 	}
 	.list-gal li a img,
 	.list li a img {
