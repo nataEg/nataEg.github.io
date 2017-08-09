@@ -736,7 +736,7 @@ footer {
 	}
 	.list-gal li a img,
 	.list li a img {
-		width: 50%;
+		width: 100%;
 		height: auto;
 	}	
 	.banner-text h1 {
