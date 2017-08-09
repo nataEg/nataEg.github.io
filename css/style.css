@@ -815,14 +815,17 @@ footer {
 
 @media screen and (min-width: 1200px) {
 	.cbm_wrap {
-		max-width: 20%;
+		width: 20%;
 /*		min-height: 24.3rem;*/
 	}	
 	.reklama {
 		max-width: 10%;
 	}
+	.cbm_wrap_map {
+		margin: 1rem;
+	}			
 	#map {
-		flex-basis: 60%;
+		flex-basis: 55%;
 		text-align: center;
 		order: 1;
 	}		
