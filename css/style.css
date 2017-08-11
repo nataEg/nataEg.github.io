@@ -5,35 +5,28 @@
 	font-family: Roboto, sans-serif;	
 	font-size: 62.5%; /*	10px*/
 	font-weight: normal;
-/*  line-height: 1.5;*/
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;	
 }
-
 body {
   background:url(../images/bg.jpg);	
 	background-repeat: repeat;
 }
 .small {
-  font-size: 2rem; /* 75% of the baseline */
+  font-size: 2rem;
 }
 .midi {
-  font-size: 2.5rem;	
+  font-size: 2.2rem;	
 }
 .large {
-  font-size: 3rem; /* 125% of the baseline */
+  font-size: 3rem;
 }
 .caps {
 	text-transform: uppercase;
 	text-align: center;
-/*  font-size: 1.8rem;	*/
 	font-weight: 500;	
 }
-/*
-h2 {
-  font-size: 3rem;		
-}
-*/
+
 /*Меню*/
 
 menu {
@@ -62,25 +55,20 @@ menu {
 }
 .list-gal ul,
 .list ul {
-/*	padding: 12px 0;*/
 	margin: 2rem;	
 }
 .list-gal li a,
 .list li a {
 	display: inline-block;
-/*	padding: 12px 0;*/
-/*	font-size: 1.6rem;*/
 	text-decoration: none;
 	color: #00acc1;
 	-webkit-transition: color 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out;
 /*	border-top: 0.1rem solid rgba(255, 255, 255, 0.4);*/
 }
-
 .list li a:hover {
 	color: #FFF852;
 }
-
 header {
 	height: 300px;
 	background-image: url(../images/header.jpg);
@@ -139,7 +127,11 @@ header {
 	color: #4A4A4A ;
 	text-align: center;
 }
-/*.cbm_wrap_map,*/
+.cbm_wrap h3{
+	font-weight: 500;
+	margin-top: 0.5rem; 
+	color: #4A4A4A !important;	
+}
 .cbm_wrap{
 	background: rgba(255,255,255,0.3);
 	width: 30rem;
@@ -151,26 +143,12 @@ header {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	color: #4A4A4A !important;
-/*    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);*/
+	font-size: 1.6rem;
+  font-weight: 300;	
 }
 .cbm_wrap img {
     width: 100%;
     margin-top: 1.5rem;
-}
-.cbm_wrap h3{
-	font-weight: 500;
-	margin-top: 0.5rem; 
-	color: #4A4A4A !important;	
-}
-.cbm_wrap h4 {
-	font-weight: 500;	
-}
-.cbm_wrap a{
-	text-decoration: none;
-	color: #4A4A4A !important;
-}.cbm_wrap a:hover{
-	text-decoration: underline;
-	color: #6B6B6B !important ;
 }
 .cbm_wrap p{
 	margin-top: 1.5rem !important;
@@ -180,8 +158,8 @@ header {
 	text-align: center !important;
 }
 
-/**************/
 /*Слайдер*/
+
 #slider {
 	max-width: 80%;
 	margin: 4rem auto 5rem;
@@ -200,8 +178,7 @@ header {
 
  .container {
 	width: 100%;
-	margin: 3rem auto;
-/*	overflow: hidden;*/
+	margin: 2rem auto;
 }
 .gal {
 	display: block;
@@ -218,15 +195,8 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-
 }
-
 .container ul li {
-/*  flex-grow: 1;*/
-/*
-	display: flex;
-	flex-shrink: 1;
-*/
   list-style:none; 
 	max-width: 45rem; 
 	height: 30rem;
@@ -263,11 +233,10 @@ header {
 }
 .container ul li a img {
   display: block;
-  width: 100%; /* ширина картинки */
+  width: 100%; 
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;	
 }
-
 .image1 {
 	background: url(../images/image1.jpg);
 }
@@ -300,7 +269,7 @@ header {
 
 .thumbs {
   width: 100%;
-  max-width: 45rem; /* опционально */
+  max-width: 45rem;
   margin: 1rem;
   opacity: .99;
   overflow: hidden;
@@ -329,8 +298,8 @@ header {
 }
 .thumbs img {
   display: block;
-  width: 100%; /* ширина картинки */
-  height: auto; /* высота картинки */
+  width: 100%; 
+  height: auto; 
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
@@ -358,9 +327,9 @@ header {
 }
 .thumbs .caption .title {
   line-height: 1;
+	font-size: 1.8rem;
   font-weight: normal;
 	text-transform: uppercase;	
-/*  font-size: 1.8rem;*/
 }
 .thumbs .caption .info {
   line-height: 1.2;
@@ -408,6 +377,7 @@ header {
 	width: 100%;
 	height: 100%;
 	z-index: 0;
+	margin-top: 2rem;
 	padding: 2rem 0; 
 	color: #4A4A4A ;
 	text-align: center;
@@ -444,28 +414,17 @@ footer {
 	align-items: center;		
 	background: #ccc;	
 }
-
 #social,
 .phone,
 .post,
 .schedule,
 #button-up,
 #autor {
-
-/*
-	margin: 0 1.5rem;	
-	padding: 0.5rem;	
-*/
 	text-align: center;	
-	
-/*	border-top: 0.1rem solid rgba(255, 255, 255, 0.4);*/
-/*	border: 0.1rem solid rgba(255, 255, 255, 0.4);	*/
-/*	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	*/
 }
 #autor {
 	border: 0.1rem solid rgba(255, 255, 255, 0.4);		
 }
-
 #informer {
 	margin-top: 0.5rem;	
 	margin-bottom: 0.5rem;	
@@ -475,21 +434,13 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-/*	margin-top: 10px;*/
-/*
-	border-top: 1px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	
-*/
 }
-
-/*#autor span a,*/
 .schedule div a {
 	text-decoration: none;
 	color: #00acc1;
 	-webkit-transition: color 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out;	
 }
-
 #social-block {
 	display: flex;
 	flex-direction: column;
@@ -507,21 +458,9 @@ footer {
   stroke-width: 0;
   stroke: #000;
   fill: #00acc1;
-/*
-	-webkit-transition: color 0.5s ease-in-out;
-	transition: color 0.5s ease-in-out;	
-*/
-/*
-	border-top: 1px solid rgba(255, 255, 255, 0.4);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);	
-*/
 }
 #button-up:hover {
   fill: #FFF852;	
-/*
-	-webkit-transition: color 0.5s ease-in-out;
-	transition: color 0.5s ease-in-out;
-*/
 }
 #autor {
 	display: flex;
@@ -533,23 +472,13 @@ footer {
 	display: inline-block;
 	margin: 1rem auto;	
 }
-/*#autor span a:hover,*/
 .schedule div a:hover {
 	color: #FFF852;	
 }
-
 #autor {
 	font-size: 2rem;
 }
 /*================== Медиа запросы ======================================*/
-
-
-
-
-
-
-
-
 @media screen and (min-width: 320px) {
 	.list li a,
 	#fotoslider,
@@ -627,35 +556,16 @@ footer {
 	.reklama > p {
 		font-size: 1.4rem;	
 	}	
-#informer {
+	#informer {
 		order: 1;
-/*
-		flex-basis: 14%;	
-		padding: 0.5rem;
-		text-align: center;		
-*/
 	}
 	#social-block {
 		order: 0;
-/*
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-*/
 	}
-/*
-	.phone,
-	.post,
-	.schedule,
-	#social-block {
-		padding: 5px;
-	}
-*/
 	#button-up {
 		order: 1;
 	}	
 }
-
 
 @media screen and (min-width: 569px) {
 	.wrapper_body {
@@ -668,54 +578,6 @@ footer {
 		margin: 0 auto;	
 	}	
 }
-
-/*
-@media screen and (min-width: 1023px) {
-	.wrapper_body_map,
-	.wrapper_body {
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-	}	
-	.cbm_wrap {
-		width: 100%;		
-		min-height: 24.3rem;
-		padding: 1.2rem;
-		margin:  2rem auto;	
-	}	
-	#informer {
-		order: 1;
-		padding-top: 0.5rem;
-		text-align: center;		
-	}
-	.phone,
-	.post,
-	.shedule {
-		padding: 1rem;
-		margin: 1rem;
-	}
-	#phone-text {
-		font-size: 10px;
-	}
-	#phone-number {
-		font-size: 8px;		
-	}
-	#social-block {
-		order: 0;
-		flex-grow: 1;	
-		margin: 1rem 0 0 0;		
-	}
-	#button-up {
-		order: 1;
-		flex-grow: 1;			
-	}
-}
-*/
-
 
 @media screen and (min-width: 1023px) {
 	.list-gal,
@@ -742,7 +604,6 @@ footer {
 	.banner-text h1 {
 		font-size: 6.4rem;
 	}	
-/*	.wrapper_body_map,*/
 	.wrapper_body {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
@@ -756,6 +617,9 @@ footer {
 		width: 25rem;
 		min-height: 24.3rem;
 	}	
+	#fotoslider {
+		margin-top: 4rem;		
+	}
 	.reklama {
 		width: 20%;	
 		margin: 1rem auto;			
@@ -767,17 +631,15 @@ footer {
 		flex-basis: 100%;
 		text-align: center;
 	}	
-	
-#footer-content {
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;		
-}
+	#footer-content {
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;		
+	}
 	#informer {
 		height: 150px;
 		display: table-cell;
 		vertical-align: middle;
-/*		flex-basis: 0;*/
 		padding: 0;
 		text-align: center;
 		order: 0;
@@ -785,11 +647,11 @@ footer {
 	}
 	#social-block {
 		flex-basis: 12%;
-		order: 1;
+		order: 2;
 		align-self: center;		
 	}	
 	#contacts {
-		order: 2;	
+		order: 1;	
 		align-self: center;		
 	}
 	#button-up {
@@ -803,20 +665,11 @@ footer {
 		text-align: center;
 		vertical-align: middle;
 	}		
-/*
-	#informer,	
-	#contacts,	
-	#social-block,	
-	#button-up {
-		border: 1px solid black;
-	}	
-*/
 }
 
 @media screen and (min-width: 1200px) {
 	.cbm_wrap {
 		width: 20%;
-/*		min-height: 24.3rem;*/
 	}	
 	.reklama {
 		max-width: 10%;
@@ -848,7 +701,6 @@ footer {
 		-webkit-justify-content: space-around;
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
-		
 	}
 	.contacts {
 		-webkit-flex-direction: row;
@@ -860,8 +712,6 @@ footer {
 	.phone,
 	.post,
 	.schedule {
-/*		padding: 1rem;*/
 		margin: 1rem;
-/*		border: 1px solid black;*/
 	}	
 }
