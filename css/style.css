@@ -9,7 +9,7 @@
 	-webkit-overflow-scrolling: touch;	
 }
 body {
-  background:url(../images/bg.jpg);	
+  background:url(../images/background.jpg);	
 	background-repeat: repeat;
 }
 .small {
@@ -71,7 +71,7 @@ menu {
 }
 header {
 	height: 300px;
-	background-image: url(../images/header.jpg);
+	background-image: url(../images/Pesok-i-rakushki.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -238,31 +238,31 @@ header {
   -webkit-backface-visibility: hidden;	
 }
 .image1 {
-	background: url(../images/image1.jpg);
+	background: url(../images/Naberezhnaya-v-Sudake.jpg);
 }
 .image2 {
-	background: url(../images/image2.jpg);
+	background: url(../images/Genuehzskaya-krepost.jpg);
 }
 .image3 {
-	background: url(../images/image3.jpg);
+	background: url(../images/Tropa-Golicyna.jpg);
 }
 .image4 {
-	background: url(../images/image4.jpg);
+	background: url(../images/Novyj-Svet.jpg);
 }
 .image5 {
-	background: url(../images/image5.jpg);
+	background: url(../images/Peshchernyj-gorod-CHufut-Kale.jpg);
 }
 .image6 {
-	background: url(../images/image6.jpg);
+	background: url(../images/Degustacionnyj-zal-v-Solnechnoj-doline.jpg);
 }
 .image7 {
-	background: url(../images/image7.jpg);
+	background: url(../images/Razvaliny-drevnego-Hersonesa.jpg);
 }
 .image8 {
-	background: url(../images/image8.jpg);
+	background: url(../images/Sevastopolskaya-panorama.jpg);
 }
 .image9 {
-	background: url(../images/image9.jpg);
+	background: url(../images/Livadijskij-dvorec-v-YAlte.jpg);
 }
 
 /*Текст в галерее*/
