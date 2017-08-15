@@ -5,13 +5,5 @@ jQuery( document ).ready(function() {
 		speed: 1000,
 		dots: true,
 		adaptiveHeight: true,
-//		responsive: [{
-//			breakpoint: 500,
-//			settings: {
-//				dots: false,
-//				arrows: false,
-//				infinite: false
-//			}
-//  	}]	
 	});
 });	
